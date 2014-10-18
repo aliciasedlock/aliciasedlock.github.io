@@ -1,0 +1,126 @@
+body {
+	background: rgb(245,245,245);
+	color: rgb(50,50,50);
+	font-family: "Raleway Light", "Arial";
+	font-size: 18px;
+	line-height: 29px;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Aleo Bold";
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	padding: 0 0 1em 0;
+	text-align: center;
+	width: 100%;
+}
+
+a {
+	color: #44ADFF;
+}
+
+.nav {
+	background: rgb(100,100,100);
+	padding: 1.25em 0 1.25em;
+	text-align: center;
+}
+
+.nav a {
+	font-family: "Aleo Bold";
+	font-size: 1.2em;
+	margin: 0 1em;
+}
+
+.footer {
+	background: rgb(50,50,50);
+	color: rgb(255,255,255);
+	padding: .5em 0;
+	text-align: center;
+}
+
+.hero {
+	background: rgb(50,50,50);
+	color: rgb(255,255,255);
+	display: table;
+	padding: 3em 0;
+	width: 100%;
+}
+
+.hero-content {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.headshot {
+	border-radius: 50%;
+	float: left;
+	margin-right: 3em;
+	shape-outside: circle();
+	width: 12em;
+}
+
+.intro {
+	font-size: 1.25em;
+}
+
+.section {
+	border-bottom: 1px dotted rgb(205,205,205);
+	margin: 0 auto;
+	padding: 4em 1em;
+	text-align: center;
+}
+
+.section.flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	text-align: left;
+}
+
+.section.dark {
+	background: rgb(50,50,50);
+	color: rgb(255,255,255);
+}
+
+.item {
+	width: 300px;
+	border-bottom: 1px solid rgb(200,200,200);
+	margin: 1em;
+	padding: 0 0 1.5em 0;
+}
+
+.post {
+	border-bottom: 1px solid rgb(200,200,200);
+	margin: 1.75em auto;
+	max-width: 650px;
+	min-width: 350px;
+	padding: 0 0 1.5em 0;
+	text-align: left;
+}
+
+.post .date {
+	color: rgb(135,135,135);
+}
+
+.post-full {
+	margin: 2em auto 6em;
+	max-width: 850px;
+	text-align: left;
+}
+
+.post-full h2 {
+	padding-bottom: 0;
+	text-align: left;
+}
+
+.post-date {
+	color: rgb(135,135,135);
+	font-style: italic;
+}
