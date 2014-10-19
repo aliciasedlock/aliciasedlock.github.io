@@ -1,0 +1,13 @@
+<% wrap_layout :layout do %>
+  <article class="post-full">
+<!--     <%= yield %> -->
+	<h2><%= current_article.title unless current_article.nil? %></h2>
+	<%= yield %>
+
+	<span>Tags: </span>
+	<% current_article.tags.each do |tag| %>
+	  <%= link_to tag, tag_path(tag) %></a>
+	<% end %>
+
+  </article>
+<% end %>

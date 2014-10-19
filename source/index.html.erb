@@ -1,0 +1,48 @@
+
+<div class="hero">
+
+  <div class="hero-content">
+    <img class="headshot" src="images/headshot.jpg" />
+
+    <h1>I am Alicia Sedlock.</h1>
+    <p class="intro">I am a user experience and front-end developer in Boston, MA. I'm passionate about crafting great experiences with clean code. I currently work for <a href="http://cantina.co">Cantina</a>. I like to help teach <a href="http://www.meetup.com/Girl-Develop-It-Boston/">women to code</a>, hang out at <a href="http://purplemonkeygamejam.com/">local game jams</a>, and sometimes speak at conferences.</p>
+  </div>
+
+</div>
+
+<div class="section flex">
+  <h2>Recent Blog Posts</h2>
+
+  <% blog.articles[0...5].each do |article| %>
+    <div class="item">
+      <h3><%= link_to article.title, article %></h3>
+      <span><%= article.date.strftime('%b. %e, %Y') %></span>
+    </div>
+  <% end %>
+
+</div>
+
+<div class="section flex" id="work">
+  <h2>Things I've Worked On</h2>
+
+  <div class="item">
+    <h3><a href="http://kittyipsum.com/">Kitty Ipsum</a></h3>
+    <span>A purrfect Lorem Ipsum generator</span>
+  </div>
+
+  <div class="item">
+    <h3><a href="http://appleorpokemon.com/">Apple or Pokemon</a></h3>
+    <span>Can you tell the difference?</span>
+  </div>
+
+  <div class="item">
+    <h3><a href="http://horsemanity.herokuapp.com/">Horse Combat for Horsemanity</a></h3>
+    <span>A JavaScript game I made for the Purple Monkey Game Jam</span>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <h2>I'm on the Internet</h2>
+
+  <a href="http://www.twitter.com/aliciability"><img class="icon" src="images/icons/twitter.svg" /></a> <a href="http://github.com/aliciasedlock"><img class="icon" src="images/icons/github.svg" /></a> <a href="http://www.linkedin.com/in/aliciasedlock/"><img class="icon" src="images/icons/linkedin.svg" /></a> <a href="http://instagram.com/aliciasedlock"><img class="icon" src="images/icons/instagram.svg" /></a
+</div>
