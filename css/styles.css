@@ -26,6 +26,10 @@ a {
 	color: rgb(219,115,114);
 }
 
+.icon {
+	width: 5em;
+}
+
 .nav {
 	background: rgb(219,84,80);
 	color: rgb(200,200,200);
@@ -145,6 +149,10 @@ a {
 
 	h1 {
 		font-size: 1.65em;
+	}
+
+	.icon {
+		width: 4.25em;
 	}
 
 	.nav a {
