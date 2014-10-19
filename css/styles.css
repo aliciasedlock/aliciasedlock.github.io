@@ -83,7 +83,8 @@ a {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-webkit-justify-content: space-around;
 	justify-content: space-around;
 	text-align: left;
 }
@@ -127,4 +128,21 @@ a {
 .post-date {
 	color: rgb(135,135,135);
 	font-style: italic;
+}
+
+@media (max-width: 913px) {
+
+	.nav a {
+		margin: 0 .6em;
+	}
+
+	.hero-content {
+		text-align: center;
+		width: 90%;
+	}
+
+	.headshot {
+		float: none;
+		margin: 0 0 1.5em 0;
+	}
 }
