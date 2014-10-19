@@ -5,21 +5,40 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-10-17T20:00:00-04:00</updated>
+  <updated>2014-10-18T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>First Time Conference Speaking Thoughts and Tips</title>
-    <link rel="alternate" href="http://blog.url.com/blog/first-time-conference.html"/>
-    <id>http://blog.url.com/blog/first-time-conference.html</id>
-    <published>2014-10-17T20:00:00-04:00</published>
-    <updated>2014-10-18T16:32:27-04:00</updated>
+    <title>Purple Monkey Game Jam 5</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/10/19/purple-monkey-game-jam-5.html"/>
+    <id>http://blog.url.com/blog/2014/10/19/purple-monkey-game-jam-5.html</id>
+    <published>2014-10-18T20:00:00-04:00</published>
+    <updated>2014-10-19T11:53:46-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2 id="first-time-conference-speaking-thoughts-and-tips"&gt;First Time Conference Speaking Thoughts and Tips&lt;/h2&gt;
-&lt;p&gt;&lt;span class="post-date"&gt;October 18, 2014&lt;/span&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;span class="post-date"&gt;October 19, 2014&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Today wraps up the fifth installment of the &lt;a href="http://purplemonkeygamejam.com"&gt;Purple Monkey Game Jam&lt;/a&gt;. It was the biggest yet, with so many awesome games! Keep on eye out on the site for the list of playable games from the jam.&lt;/p&gt;
+
+&lt;p&gt;This is the first place that I ever made a game. I never really thought I would want to make a game, and did it to be a good sport as I volunteered as event staff. First, I made a demo using Scratch. Then I worked with a team to make a paper prototype of a board game. And then I made an HTML/JS game. After every jam, I felt so accomplished, so proud, and so happy that there was an awesome space to toy around.&lt;/p&gt;
+
+&lt;p&gt;If you're in the Boston area and have ever been interested in making a game, this jam is the place to do it. Everyone that's attended over these five jams has been insanely nice, willing to help, and come up with such incredible game ideas.&lt;/p&gt;
+
+&lt;p&gt;I keep thinking about helping new jammers out somehow, maybe by running some kind of workshop the first day, but I can never really pinpoint what I think would be most effective. If you have any ideas, or are someone that wants to join a game jam but needs some kind of guidance during the process, get in touch! I'd love to help open this event (and other jams!) up to as many people as possible.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>First Time Conference Speaking Thoughts and Tips</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/10/18/first-time-conference.html"/>
+    <id>http://blog.url.com/blog/2014/10/18/first-time-conference.html</id>
+    <published>2014-10-17T20:00:00-04:00</published>
+    <updated>2014-10-19T11:53:02-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;span class="post-date"&gt;October 18, 2014&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;I never thought I would &lt;em&gt;actually&lt;/em&gt; speak at a conference. It's one of those things you daydream about and think, "Yeah, that would be cool!" But then you remember that you're socially awkward and still relatively new in your career and the thought changes into, "Nah, that can never be me." I've gone through this cycle for a few years now, and I'm sure I'm not the only one.&lt;/p&gt;
 
