@@ -5,9 +5,9 @@ tags: game jam, development, html, js
 ---
 <span class="post-date">October 19, 2014</span>
 
-Today wraps up the fifth installment of the [Purple Monkey Game Jam](http://purplemonkeygamejam.com). It was the biggest yet, with so many awesome games! Keep on eye out on the site for the list of playable games from the jam.
+Today wraps up the fifth installment of the [Purple Monkey Game Jam](http://purplemonkeygamejam.com). It was the biggest yet, with so many awesome games! [Keep on eye out here](http://jams.gamejolt.io/pmgj) for the list of playable games from the jam.
 
-This is the first place that I ever made a game. I never really thought I would want to make a game, and did it to be a good sport as I volunteered as event staff. First, I made a demo using Scratch. Then I worked with a team to make a paper prototype of a board game. And then I made an HTML/JS game. After every jam, I felt so accomplished, so proud, and so happy that there was an awesome space to toy around.
+This is the first place that I ever made a game. I never really thought I would want to make a game, and did it to be a good sport as I volunteered as event staff. First, I made a demo using Scratch. Then I worked with a team to make a paper prototype of a board game. And then I made an HTML/JS game. After every jam, I felt so accomplished, so proud, and so happy that there was an awesome space to toy around. I now like to think of game ideas casually, and perhaps one day I'll take the leap to make a full game.
 
 If you're in the Boston area and have ever been interested in making a game, this jam is the place to do it. Everyone that's attended over these five jams has been insanely nice, willing to help, and come up with such incredible game ideas.
 
