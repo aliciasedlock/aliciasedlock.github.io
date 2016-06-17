@@ -28,6 +28,10 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
+activate :autoprefixer do |config|
+  config.browsers = ['last 4 versions', 'Explorer >= 9']
+end
+
 page "/feed.xml", layout: false
 
 ###
@@ -73,6 +77,14 @@ page "blog/tags/*", :layout => :layout
 # Reload the browser automatically whenever files change
 # activate :livereload
 
+# Use autoprefixer
+# activate :autoprefixer
+
+configure :development do
+    activate :livereload
+    activate :autoprefixer
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -90,6 +102,7 @@ set :images_dir, 'images'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
+  activate :imageoptim
 
   # Minify Javascript on build
   # activate :minify_javascript

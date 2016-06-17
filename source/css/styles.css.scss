@@ -42,17 +42,17 @@ a {
   display: table;
 
   img {
-    width: 50vw;
-		height: 65vh;
+    width: 50%;
+		height: 50%;
     float: left;
-    margin-right: 2em;
+    margin-right: 4em;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 76% 81%, 46% 100%, 0% 82%);
     shape-outside: polygon(0% 0%, 100% 0%, 76% 81%, 46% 100%, 0% 82%);
   }
 
 	.underlay {
-    width: 51vw;
-		height: 73vh;
+    width: 53%;
+		height: 37vw;
     float: left;
     margin-right: 2em;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 73% 71%, 41% 95%, 0% 74%);
@@ -60,6 +60,7 @@ a {
 		position: absolute;
 		background: #A3A948;
 		opacity: .5;
+		z-index: -1;
   }
 
   h1, h2 {
@@ -76,7 +77,12 @@ a {
     padding-bottom: 2em;
     font-size: 2vw;
     text-align: left;
+		line-height: 1.3em;
   }
+
+	.content {
+		padding-right: 3em;
+	}
 }
 
 .icon {
@@ -191,6 +197,10 @@ a {
 		font-size: 1.65em;
 	}
 
+	#hero h2 {
+		font-size: 2.3vw;
+	}
+
 	.icon {
 		width: 4.25em;
 	}
@@ -211,5 +221,57 @@ a {
 
 	.post-full {
 		padding: 0 1em;
+	}
+}
+
+@media (max-width: 760px) {
+
+	.nav {
+		text-align: center;
+	}
+
+	#hero {
+		.content {
+			clear: left;
+			width: 95%;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+		}
+
+		img {
+			width: 65%;
+			float: none;
+			margin: 0 auto;
+		}
+
+		.underlay {
+			width: 68%;
+			height: 48vw;
+			left: 18vw;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+
+	#hero h2 {
+		font-size: 4vw;
+		text-align: center;
+	}
+
+
+	#hero {
+
+		img {
+			width: 95%;
+			float: left;
+		}
+
+		.underlay {
+			width: 100%;
+			height: 71vw;
+			left: 0;
+		}
 	}
 }
