@@ -29,6 +29,14 @@ upcoming_conferences:
   <% end %>
 </div>
 
+<div class="section flex">
+  <h2>Silly Projects I've Made</h2>
+
+  <%= partial(:item, :locals => { :linkText => "Apple Or Pokemon?", :link => "https://appleorpokemon.herokuapp.com/", :subInfo => "A quiz for those who think they're Pokemon masters." }) %>
+  <%= partial(:item, :locals => { :linkText => "Grandma Ate Too Much Cake", :link => "https://grandmamadetoomuchcake.herokuapp.com/", :subInfo => "Made for Purple Monkey Game Jam, theme 'Too much of a good thing'." }) %>
+  <%= partial(:item, :locals => { :linkText => "Horse Combat for Horsemanity", :link => "https://horsemanity.herokuapp.com/", :subInfo => "Made for Purple Monkey Game Jam, theme 'Light and dark'." }) %>
+</div>
+
 <div class="section" id="contact">
   <h2>I'm on the Internet</h2>
 
