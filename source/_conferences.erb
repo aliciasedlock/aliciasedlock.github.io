@@ -1,0 +1,9 @@
+<h2><%= heading %></h2>
+
+<% conferences.each do |conference| %>
+  <%= partial(:item, :locals => {
+    :linkText => conference.name,
+    :link => conference.website,
+    :subInfo => conference.details
+  }) %>
+<% end %>

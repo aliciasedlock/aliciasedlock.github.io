@@ -1,44 +1,32 @@
+---
+upcoming_conferences:
+  - name: Web Unleashed 2016
+    details: October 3-4, Toronto
+    website: http://fitc.ca/event/webu16/
+---
 
-<div class="hero">
+<section id="hero">
+  <div class="underlay"></div>
+  <img id="hero" src="images/hero.jpg" alt="" />
 
-  <div class="hero-content">
-    <img class="headshot" src="images/headshot.jpg" />
-
-    <h1>I am Alicia Sedlock.</h1>
-    <p class="intro">I am a user experience and front-end developer in Boston, MA. I'm passionate about crafting great experiences with clean code. I currently work for <a href="http://cantina.co">Cantina</a>. I like to help teach <a href="http://www.meetup.com/Girl-Develop-It-Boston/">women to code</a>, hang out at <a href="http://purplemonkeygamejam.com/">local game jams</a>, and sometimes speak at conferences.</p>
+  <div>
+    <h1>Alicia Sedlock</h1>
+    <h2>is a web developer, currently based in Boston. She loves talking web standards, accessibility, front-end architecture, and all things CSS.</h2>
   </div>
+</section>
 
-</div>
+<% if (current_page.data.upcoming_conferences) %>
+  <div class="section flex">
+    <%= partial(:conferences, :locals => { :heading => "Upcoming Conferences", :conferences => current_page.data.upcoming_conferences }) %>
+  </div>
+<% end %>
 
 <div class="section flex">
   <h2>Recent Blog Posts</h2>
 
   <% blog.articles[0...5].each do |article| %>
-    <div class="item">
-      <h3><%= link_to article.title, article %></h3>
-      <span><%= article.date.strftime('%b. %e, %Y') %></span>
-    </div>
+    <%= partial(:item, :locals => { :linkText => article.title, :link => article, :subInfo => article.date.strftime("%b. %e, %Y") }) %>
   <% end %>
-
-</div>
-
-<div class="section flex" id="work">
-  <h2>Things I've Worked On</h2>
-
-  <div class="item">
-    <h3><a href="http://kittyipsum.com/">Kitty Ipsum</a></h3>
-    <span>A purrfect Lorem Ipsum generator</span>
-  </div>
-
-  <div class="item">
-    <h3><a href="http://appleorpokemon.com/">Apple or Pokemon</a></h3>
-    <span>Can you tell the difference?</span>
-  </div>
-
-  <div class="item">
-    <h3><a href="http://horsemanity.herokuapp.com/">Horse Combat for Horsemanity</a></h3>
-    <span>A JavaScript game I made for the Purple Monkey Game Jam</span>
-  </div>
 </div>
 
 <div class="section" id="contact">

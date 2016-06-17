@@ -9,25 +9,25 @@
     <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
 
-    <title>Alicia Sedlock | User Experience and Front-End Developer</title>
+    <title>Alicia Sedlock | Front-End Developer, International Speaker</title>
 
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
 
     <div class="nav">
-      <a href="/">Home</a> | 
-      <a href="/#work">Work</a> | 
-      <a href="/blog">Blog</a> | 
+      <a href="/">Home</a> |
+      <a href="/speaking">Speaking</a> |
+      <a href="/blog">Writing</a> |
       <a href="/#contact">Contact</a>
     </div>
-    
+
     <div id="main" role="main">
       <%= yield %>
     </div>
 
     <div class="footer">
-      <span>Copyright 2014. Made in Boston.</span>
+      <span>Copyright forever.</span>
     </div>
 
   </body>

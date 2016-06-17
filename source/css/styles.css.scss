@@ -1,5 +1,4 @@
 body {
-	background: rgb(245,245,245);
 	color: rgb(50,50,50);
 	font-family: "Raleway Light", "Arial";
 	font-size: 18px;
@@ -8,10 +7,8 @@ body {
 	padding: 0;
 }
 
-h1,
-h2,
-h3 {
-	font-family: "Aleo Bold";
+h1, h2, h3 {
+  font-family: "Aleo Bold";
 	margin: 0;
 	padding: 0;
 }
@@ -22,8 +19,64 @@ h2 {
 	width: 100%;
 }
 
+section {
+  width: 100%;
+  clear: both;
+}
+
+section:not(:first-child) {
+  width: 77vw;
+  float: right;
+
+  h2 {
+    background: pink;
+    padding: .5em;
+  }
+}
+
 a {
-	color: rgb(219,115,114);
+	color: #009989;
+}
+
+#hero {
+  display: table;
+
+  img {
+    width: 50vw;
+		height: 65vh;
+    float: left;
+    margin-right: 2em;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 76% 81%, 46% 100%, 0% 82%);
+    shape-outside: polygon(0% 0%, 100% 0%, 76% 81%, 46% 100%, 0% 82%);
+  }
+
+	.underlay {
+    width: 51vw;
+		height: 73vh;
+    float: left;
+    margin-right: 2em;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 73% 71%, 41% 95%, 0% 74%);
+    shape-outside: polygon(0% 0%, 100% 0%, 73% 71%, 41% 95%, 0% 74%);
+		position: absolute;
+		background: #A3A948;
+		opacity: .5;
+  }
+
+  h1, h2 {
+    color: black;
+    margin: 0 0 0 0;
+    padding: 1.5em 0 0 0;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    padding-bottom: 2em;
+    font-size: 2vw;
+    text-align: left;
+  }
 }
 
 .icon {
@@ -31,16 +84,16 @@ a {
 }
 
 .nav {
-	background: rgb(219,84,80);
-	color: rgb(200,200,200);
-	padding: .75em 0;
-	text-align: center;
+	background: #A3A948;
+	color: white;
+	padding: .5em 0;
+	text-align: right;
 }
 
 .nav a {
 	color: white;
 	font-family: "Raleway Light", "Arial";
-	font-size: 1.2em;
+	font-size: 1em;
 	margin: 0 1em;
 	text-decoration: none;
 }
@@ -50,40 +103,16 @@ a {
 }
 
 .footer {
-	background: rgb(50,50,50);
+	background: #A3A948;
 	color: rgb(255,255,255);
-	padding: .5em 0;
+	padding: .25em 0;
 	text-align: center;
-}
-
-.hero {
-	background: rgb(50,50,50);
-	color: rgb(255,255,255);
-	display: table;
-	padding: 3em 0;
-	width: 100%;
-}
-
-.hero-content {
-	margin: 0 auto;
-	width: 60%;
-}
-
-.headshot {
-	border-radius: 50%;
-	float: left;
-	margin-right: 3em;
-	shape-outside: circle();
-	width: 12em;
-}
-
-.intro {
-	font-size: 1.25em;
 }
 
 .section {
 	border-bottom: 1px dotted rgb(205,205,205);
 	margin: 0 auto;
+	max-width: 60em;
 	padding: 4em 1em;
 	text-align: center;
 }
@@ -107,9 +136,20 @@ a {
 
 .item {
 	width: 300px;
-	border-bottom: 1px solid rgb(200,200,200);
 	margin: 1em;
 	padding: 0 0 1.5em 0;
+	position: relative;
+}
+
+.item-border {
+  width: 0;
+  height: 0;
+  border-top: 15px solid #CE1836;
+  border-left: 15px solid transparent;
+	position: absolute;
+	top: 0;
+	right: 0;
+
 }
 
 .post {

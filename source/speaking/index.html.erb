@@ -1,0 +1,49 @@
+---
+pending_conferences:
+  - name: Web Directions Code
+    details: July 28-29, Sydney
+    website: http://www.webdirections.org/code16/
+  - name: Web Directions Code
+    details: August 1-2, 2016, Melbourne
+    website: http://www.webdirections.org/code16/
+upcoming_conferences:
+  - name: Web Unleashed
+    details: October 3-4, Toronto
+    website: http://fitc.ca/event/webu16/
+past_conferences:
+  - name: Render Conf
+    details: April 2016, Oxford
+    website: http://2016.render-conf.com/
+  - name: O'Reilly Fluent Conf
+    details: March 2016, San Francisco
+    website: http://conferences.oreilly.com/fluent/javascript-html-us
+  - name: Sass Summit 2015
+    details: November 2015, Virtual
+    website: http://environmentsforhumans.com/2015/sass-summit/
+  - name: UpFront Conf
+    details: May 2015, Manchester City
+    website: http://2015.upfrontconf.com/
+  - name: Javascript Summit
+    details: February 2015, Virtual
+    website: http://environmentsforhumans.com/2015/javascript-summit/
+  - name: CSS Dev Conf
+    details: October 2014, New Orleans
+    website: http://2014.cssdevconf.com/
+---
+
+<div class="section flex">
+  <h2>I love talking about front-end development.</h2>
+  <p>My whole career has been a love fest with the front-end world, and I will gladly talk about any aspect of development with anyone who will listen. Specifically, here are some talks I'm giving now or have given in the past.</p>
+</div>
+
+<div class="section flex">
+  <%= partial(:conferences, :locals => { :heading => "Upcoming Conferences", :conferences => current_page.data.upcoming_conferences }) %>
+  <div class="item">
+    <h3>Want me to speak at your conference?</h3>
+    <span><a href="mailto:aliciasedlock@gmail.com?subject=Speaking%20Opportunity">Get in touch!</a></span>
+  </div>
+</div>
+
+<div class="section flex">
+  <%= partial(:conferences, :locals => { :heading => "Past Conferences", :conferences => current_page.data.past_conferences }) %>
+</div>
