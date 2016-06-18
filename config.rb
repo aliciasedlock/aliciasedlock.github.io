@@ -102,6 +102,7 @@ set :images_dir, 'images'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
+  activate :minify_html
   activate :imageoptim
 
   # Minify Javascript on build

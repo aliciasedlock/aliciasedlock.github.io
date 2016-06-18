@@ -5,7 +5,8 @@ source 'http://rubygems.org'
 gem "middleman"
 gem "middleman-blog"
 gem "middleman-livereload"
-gem 'middleman-autoprefixer', github: 'middleman/middleman-autoprefixer'
+gem "middleman-autoprefixer", github: "middleman/middleman-autoprefixer"
+gem "middleman-minify-html"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
