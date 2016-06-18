@@ -7,6 +7,7 @@ gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-autoprefixer", github: "middleman/middleman-autoprefixer"
 gem "middleman-minify-html"
+gem "middleman-inliner"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
