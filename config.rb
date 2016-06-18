@@ -99,12 +99,12 @@ set :css_dir, 'css'
 set :images_dir, 'images'
 
 # Build-specific configuration
+
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
   activate :minify_html
   activate :imageoptim
-  activate :inliner
   activate :gzip
 
   # Minify Javascript on build
