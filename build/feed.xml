@@ -5,7 +5,7 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-10-18T19:00:00-05:00</updated>
+  <updated>2014-10-18T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Purple Monkey Game Jam 5</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/10/19/purple-monkey-game-jam-5.html"/>
     <id>http://blog.url.com/blog/2014/10/19/purple-monkey-game-jam-5.html</id>
-    <published>2014-10-18T19:00:00-05:00</published>
-    <updated>2016-06-18T10:46:01-05:00</updated>
+    <published>2014-10-18T20:00:00-04:00</published>
+    <updated>2016-08-04T17:54:57-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -33,8 +33,8 @@
     <title>First Time Conference Speaking Thoughts and Tips</title>
     <link rel="alternate" href="http://blog.url.com/blog/2014/10/18/first-time-conference.html"/>
     <id>http://blog.url.com/blog/2014/10/18/first-time-conference.html</id>
-    <published>2014-10-17T19:00:00-05:00</published>
-    <updated>2016-06-18T10:46:01-05:00</updated>
+    <published>2014-10-17T20:00:00-04:00</published>
+    <updated>2016-08-04T17:54:57-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
