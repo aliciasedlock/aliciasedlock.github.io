@@ -1,10 +1,11 @@
 ---
 upcoming_conferences:
-  - name: Web Unleashed
-    details: October 17-18, San Antonio
-    website: http://2016.cssdevconf.com/
-  - name: CSS Dev Conf
-    details: October 3-4, Toronto
+  - name: Fronteers
+    details: October 5-6, Amsterdam
+    website: https://fronteers.nl/congres/2017
+  - name: Frontend Connect
+    details: October 22-23, Warsaw
+    website: http://frontend-con.io/
     website: http://fitc.ca/event/webu16/
 ---
 
@@ -23,14 +24,14 @@ upcoming_conferences:
     <%= partial(:conferences, :locals => { :heading => "Upcoming Conferences", :conferences => current_page.data.upcoming_conferences }) %>
   </div>
 <% end %>
-
+<!--
 <div class="section flex">
   <h2>Recent Blog Posts</h2>
 
   <% blog.articles[0...5].each do |article| %>
     <%= partial(:item, :locals => { :linkText => article.title, :link => article, :subInfo => article.date.strftime("%b. %e, %Y") }) %>
   <% end %>
-</div>
+</div> -->
 
 <div class="section flex">
   <h2>Silly Projects I've Made</h2>
